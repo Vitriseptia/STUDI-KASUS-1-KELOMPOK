@@ -27,4 +27,23 @@ if(bulan<5)
 		
 		}
 	}
-	
+else
+	{
+		cout<<"tim berapa?";
+		cin>>tim;
+		switch(tim)
+		{
+			case 1 : 
+			{
+				cout<<"gaji tim 1 sebesar RP. "<<tim1*bulan<<endl;
+				break;
+			}
+			case 2 :
+				{
+				cout<<"gaji tim 1 sebesar RP. "<<tim2*bulan<<endl;
+				break;	
+				}
+		}
+	}
+	return 0;
+}	
