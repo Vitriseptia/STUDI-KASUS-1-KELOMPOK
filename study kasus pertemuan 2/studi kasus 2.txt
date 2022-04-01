@@ -1,0 +1,19 @@
+Di sebuah Startup membutuhkan developer untuk mengembangkan sistem dan produk startup
+tersebut. Startup ini membutuhkan para developer yang handal dalam bidang :
+
+1. Express JS : 15 juta / perbulan
+2. Django Python : 13 juta / perbulan
+3. Rails Ruby : 8 juta / perbulan
+4. Laravel PHP : 18 juta / perbulan
+5. Spring Java : 8 juta / perbulan
+6. Angular JS : 15 juta / perbulan
+
+Startup tersebut menawarkan pada calon developernya siapa saja yang menguasai satu bidang
+dengan pengalaman lebih dari 4 tahun, maka gaji perbulannya ditambah 4%. Calon developer boleh mengambil 2 pekerjaan dengan syarat minimal kedua pekerjaan
+tersebut mempunya pengalaman 2,5 tahun tetapi gaji dari tiap pekerjaan perbulan dipotong
+9%. Startup membutuhkan 230 developer, jika sudah melebihi maka lowongan ditutup. Jika dalam tim seorang developer menjadi leader tim, maka akan mendapat bonus sebesar 6%
+dari gaji perbulan saat project selesai. Output dari program diharapkan dapat berbentuk slip gaji.
+
+orang 1 = input
+orang 2 = proses
+orang 3 = output
