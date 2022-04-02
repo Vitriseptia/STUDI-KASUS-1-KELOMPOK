@@ -88,3 +88,57 @@ void developer::pokok(){
 }
 }
 
+void developer::proses(){
+for(int i=0; i<2;i++){
+	if(pl>4){
+		gbulan[i]=gaji[i]*0.4*lama[i];
+	}
+		else{
+		gbulan[i]=gaji[i]*lama[i];
+		}
+	
+	if(posisi[i]=1){	
+		leader[i]=gaji[i]*(0,6+lama[i]);}	
+		
+	
+	if(pekerjaan=2){
+		kurangan[i]=gaji[i]-gaji[i]*0,9;
+	}
+	tambahan[i]=leader[i]-kurangan[i];
+	total[i]=gbulan[i]+tambahan[i];
+}
+	
+
+		}
+
+
+
+void developer::output(){
+		cout<<"\n\nSlip Pembayaran Gaji Karyawan\n\n "<<endl;
+		cout<<"==================================="<<endl;
+		cout<<"Nama			: "<<nama<<endl;
+		cout<<"Bidang pekerjaan	:"<<kr[0]<<","<<kr[1]<<endl;	
+		cout<<"Rincian gaji:"<<endl;
+		cout<<"Gaji pokok 		: "<<gbulan[1]+gbulan[2]<<endl;
+		cout<<"Gaji tambahan 		: "<<tambahan[0]+tambahan[1]<<endl;
+		cout<<"Potongan gaji 		: "<<kurangan[0]+kurangan[0]<<endl;
+		cout<<"Total gaji 		: "<<total[0]+total[1]<<endl;
+	
+	}
+	
+
+
+int main(){
+	int nomer;
+	cout<<"Nomer antrian : "; cin>>nomer;
+	if(nomer>230){ cout<<"Lowongan telah ditutp"<<endl;}
+	else{	
+	developer x;
+	x.daftar();
+	x.kerjaan();
+	x.pokok();
+	x.proses();
+	x.output();}
+	return 0;
+	
+}
