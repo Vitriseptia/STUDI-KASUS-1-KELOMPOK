@@ -1,0 +1,33 @@
+menu paket sks 
+1) paket semester 1 20sks
+2)paket semster 2 21sks
+3)paket semster 3 21sks
+//input
+masukan Nama :
+masukan Nim :
+Masukan paket :
+apakah ada tambahan sks(y/n)=> y
+Masukan jumlah sks tambahan :
+masukan sks pada paket :
+
+
+//output
+Nama => alpro
+NIM => 011056059
+paket sks =>
+Daftar Matkul paket semster 2
+1) Akhlak(2sks)
+2) Algoritma Pemograman(3sks)
+3) Aljabar linear matrix(2sks)
+4) Arsitektur komputer(3sks)
+5) Bahasa indonesia(2sks)
+6) Matematika Diskrit(3sks)
+7) Pemograman web(sks)
+8) PKN(2sks)
+9) Prak Alpro (1sks)
+harga paket => 3150000
+tambahan sks => 2
+harga tambahan => 300000
+jumlah sks => 23
+Diskon => 862500
+total pembayaran => 2587500
