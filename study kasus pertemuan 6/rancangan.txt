@@ -1,0 +1,33 @@
+//input
+masukin brp mahasiswa?
+masukkan nama :
+masukin brp matkul?
+pake perulangan
+masukan matkul : 
+masukkan daftar nilai TUGAS:
+masukkan daftar nilai UTS:
+masukkan daftar nilai UAS:
+*kayak di contoh yt menit ke 5:36
+
+output
+==========================================================
+    DAFTAR NILAI MAHASISWA                               ||
+==========================================================
+nama : jaem
+==========================================================
+mata kuliah  || tugas   || uts    || uas   || Nilai akhir ||
+praktikum    ||  80     ||  85    ||  90   ||    85       ||
+.....        ||  90     ||  85    ||  98   ||    91       ||
+-----------------------------------------------------------
+rata- rata   ||  85         85        94         83
+
+nama : mark
+==========================================================
+mata kuliah  || tugas  || uts   || uas   || Nilai akhir ||
+alprogram    ||  90    ||  85   ||  90   ||      85     ||
+....         ||  86    ||  91   ||  91   ||      89,3   ||
+----------------------------------------------------------
+rata- rata   ||  88        88      90,5          87,1
+
+
+
