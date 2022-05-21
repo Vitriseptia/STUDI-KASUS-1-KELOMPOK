@@ -69,18 +69,18 @@ void shopee::input(){
     }
     while (lagi!= 't');
     cout<<endl;
-  cout<<"=============================="<<endl;
-  cout<<"Jasa pengiriman yang tersedia             "<<endl;
-  cout<<" 1. j&t\n 2. jne\n 3. Reguler\n 4. Kargo  "<<endl;
-  cout<<"------------------------------"<<endl;
+  cout<<"|==============================|"<<endl;
+  cout<<"|Jasa pengiriman yang tersedia |"<<endl;
+  cout<<"|------------------------------|"<<endl;
+  cout<<"|1. j&t                        |"<<endl;
+  cout<<"|2. jne                        |"<<endl;
+  cout<<"|3. Reguler                    |"<<endl;
+  cout<<"|4. Kargo                      |"<<endl;
+  cout<<"|==============================|"<<endl;
   cout<<"jasa pengiriman yang akan digunakan ? "; cin>>jasa;
-
-  
 }
 
 void shopee::proses(){
-
-  
 //bagian hitung harga barang//
   belanja=0;
    for(int i=0; i<menu; i++){
@@ -88,8 +88,7 @@ void shopee::proses(){
     belanja=belanja+hargaitem[i];
    }
   
-    //Bagian jasa pengiriman//
-
+//Bagian jasa pengiriman//
 	switch(jasa){
     case 1:
       {
@@ -124,32 +123,32 @@ void shopee::proses(){
 
   //bagian voucher
  if(belanja>5000000){
-    cout<<"\n================================="<<endl;
-    cout<<"Voucher tersedia"<<endl;
-    cout<<"----------------------------------"<<endl;
-    cout<<"1. Diskon 10.000 min.Blj 100000"<<endl;
-    cout<<"2. Diskon 7% min.Blj 1000000"<<endl;
-    cout<<"3. Diskon 5% min.Blj 3000000 "<<endl;
-    cout<<"----------------------------------"<<endl;
+    cout<<"\n|=================================|"<<endl;
+    cout<<"|Voucher tersedia                 |"<<endl;
+    cout<<"|---------------------------------|"<<endl;
+    cout<<"|1. Diskon 10.000 min.Blj 100000  |"<<endl;
+    cout<<"|2. Diskon 7% min.Blj 1000000     |"<<endl;
+    cout<<"|3. Diskon 5% min.Blj 3000000     |"<<endl;
+    cout<<"|---------------------------------|"<<endl;
     cout<<"Pilih salah satu voucher : "; cin>>voucherr;
   }
 
  else if(belanja>1000000){
-    cout<<"\n================================="<<endl;
-    cout<<"Voucher tersedia"<<endl;
-    cout<<"----------------------------------"<<endl;
-    cout<<"1. Diskon 10.000 min.Blj 100000"<<endl;
-    cout<<"2. Diskon 7% min.Blj 1000000 "<<endl;
-    cout<<"----------------------------------"<<endl;
+    cout<<"\n|=================================|"<<endl;
+    cout<<"|Voucher tersedia                 |"<<endl;
+    cout<<"|---------------------------------|"<<endl;
+    cout<<"|1. Diskon 10.000 min.Blj 100000  |"<<endl;
+    cout<<"|2. Diskon 7% min.Blj 1000000     |"<<endl;
+    cout<<"|---------------------------------|"<<endl;
     cout<<"Pilih salah satu voucher : "; cin>>voucherr;
  }
 
   else if (belanja>100000){
-    cout<<"\n================================="<<endl;
-    cout<<"Voucher tersedia"<<endl;
-    cout<<"----------------------------------"<<endl;
-    cout<<"1. Diskon 10.000 min.Blj 100000"<<endl;
-    cout<<"----------------------------------"<<endl;
+    cout<<"\n|=================================|"<<endl;
+    cout<<"|Voucher tersedia                 |"<<endl;
+    cout<<"|---------------------------------|"<<endl;
+    cout<<"|1. Diskon 10.000 min.Blj 100000  |"<<endl;
+    cout<<"|---------------------------------|"<<endl;
     cout<<"Pilih salah satu voucher : "; cin>>voucherr;
   }
 
@@ -175,7 +174,8 @@ switch(voucherr){
       break;
     }
 }
-pay://Bagian metode pembayaran
+//Bagian metode pembayaran
+pay:
   cout<<"\n|===================|"<<endl;  
   cout<<"|Metode pembayaran  |"<<endl;
   cout<<"|-------------------|"<<endl;  
@@ -190,18 +190,17 @@ pay://Bagian metode pembayaran
       {
         metode="Shopeepay";
         if(saldo<belanja){
-          cout<<"Shopeepay anda tidak cukup. Silahkan                           pilih metode pembayaran yang lain"<<endl;
+          cout<<"Shopeepay anda tidak cukup. Silahkan pilih metode pembayaran yang lain"<<endl;
           goto pay;
             }
             else{
-            cout<<"\n=============================="            <<endl;
-            cout<<"Voucher gratis ongkir 10 ribu "                  <<endl;
-            cout<<"Gunakan voucher? (y/t) ";           cin>>diskonongkir;
-            cout<<"-------------------------------"<<endl;
+            cout<<"\n|==============================|"<<endl;
+            cout<<"|Voucher gratis ongkir 10 ribu |"<<endl;
+            cout<<"|==============================|"<<endl;
+            cout<<"Gunakan voucher? (y/t) "; cin>>diskonongkir;
             if(diskonongkir='y'){
               gratong=10000;
             }
-            
               }
         break;
       } 
@@ -240,12 +239,10 @@ else{
   bproteksi=0;
 }
 
-
-
 //bagian total akhir 
 total=belanja+ongkir-gratong-voucher+bproteksi;
  
-  }
+}
 
    
 
