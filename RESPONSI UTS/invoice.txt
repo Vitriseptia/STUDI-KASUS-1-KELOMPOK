@@ -1,0 +1,23 @@
+==================================================================
+                           INVOICE PEMBELANJAAN                   
+==================================================================
+RINCIAN ALAMAT : 
+  VITRI DAMAR ASQINA
+ 	Jalan Ring Road Selatan, Tamanan, Banguntapan, Bantul Yogyakarta
+  +622100018059
+METODE PEMBAYARAN : 
+  COD
+------------------------------------------------------------------
+RINCIAN PESANAN :
+1)  Laptop				3x				6000000
+2)  kaos				6x				240000
+3)  celana				3x				300000
+-----------------------------------------------------------------
+Subtotal untuk produk     			 Rp.6540000
+Subtotal pengiriman  (j&t)			 Rp.22000
+Total Diskon pengiriman   			 Rp.0
+Total Diskon Barang       			 Rp.457800
+Biaya proteksi asuransi   			 Rp.1500
+-----------------------------------------------------------------
+TOTAL PEMBAYARAN          			 Rp.6105700
+-----------------------------------------------------------------

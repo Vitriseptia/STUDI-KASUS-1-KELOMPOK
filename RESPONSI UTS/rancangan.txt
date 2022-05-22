@@ -1,0 +1,69 @@
+  	saldo=500000;
+ cout<<"|==================================";
+	cout<<"|			SHOPEE				  ";
+	cout<<"|==================================";
+	cout<<"Masukkan Akun Anda : 			  ";
+	cout<<"Username	: " cin>>un;
+	cout<<"Password	: " cin>>ps;
+  cout<<"|==================================";
+	cout<<"|			masukan identitas anda		 ";
+	cout<<"|==================================";
+  cout<<"Nama lengkap   : " cin>>nama;
+  cout<<"No HP          : " cin>>no;
+  cout<<"Alamat lengkap : " cin>>alamat;|| nnti pas 3 ini di outputin di bagian alamat itu bawahnya checkout
+  cout<<"|==================================";
+	cout<<"|	selamat berbelanja silahkan pilih barang pilihan anda				  ";
+	cout<<"|==================================";
+disini biar bisa pilih barang berkali kali yg pke (y/n)
+	jenis barang : (disini sama harga juga kayak switch casenya kurir gt biar nnti bsa outputin nama barang sama harga gt)
+		1. fashion :
+			a)kaos
+			b)kemeja
+			c)celana
+			d)rok
+		2. Elektronik :
+			a)
+			b)
+	cout<<"jasa pengiriman yang akan digunakan?"
+	swith(kurir)
+case 1: kurir='j&t'
+        ongkir='12000'
+     2: kurir='jne'
+        ongkir='15000'
+dst.....
+
+
+proses nnti kayak ada perulangan trs switch apa gt masuk perulangan aja nnti di koreksi deh pokoe ya na
+ diskon= belanja>50000 = 1000
+	biaya proteksi(asuransi)= 1500
+  gratong= belanja>50000 
+
+
+output:
+============================================================================
+                      INVOICE PEMBELANJAAN
+=============================================================================
+RINCIAN ALAMAT :
+  ASQINA DAMAR VITRI
+  Jalan Ring Road Selatan, Tamanan, Banguntapan, Bantul Yogyakarta 55166
+  0821011056059
+
+METODE PEMBAYARAN :
+  COD (Bayar ditempat)
+-------------------------------------------------------------------------------
+RINCIAN PESANAN 
+    baju                5x     Rp.200.0000
+    celana              3x     Rp.300.0000
+    smartphone          3x     Rp.1.500.000
+    laptop              1x     Rp.2.000.000
+-------------------------------------------------------------------------------
+subtotal untuk produk                      Rp.4.000.000
+subtotal pengiriman-(J&T)                  Rp.   12.000
+total Diskon pengiriman                    Rp.   12.000
+total Diskon Barang                        Rp.  100.000
+biaya proteksi asuransi                    Rp.    1.500
+-------------------------------------------------------------------------------
+TOTAL PEMBAYARAN                           Rp.3.901.500
+-------------------------------------------------------------------------------
+
+    
