@@ -32,48 +32,48 @@ void datamhs::input(){
 }
 void datamhs::proses(){
 
-   for (int j=0; j<c; j++){
+   for (int i=0; i<c; i++){
             /*  //Desecending
-            if (nim[j] <nim[j+1]) 
+             if (nim[i] < nim[i+1]) 
             {
-               nim_temp=nim[j];
-                nim[j]=nim[j+1];
-                nim[j+1]=nim_temp;
+               nim_temp=nim[i];
+                nim[i]=nim[i+1];
+                nim[i+1]=nim_temp;
               
-              nama_temp=nama[j];
-                nama[j]=nama[j+1];
-                nama[j+1]=nama_temp;
+              nama_temp=nama[i];
+                nama[i]=nama[i+1];
+                nama[i+1]=nama_temp;
 
 
-               prd_temp=prd[j];
-                prd[j]=prd[j+1];
-                prd[j+1]=prd_temp;
+               prd_temp=prd[i];
+                prd[i]=prd[i+1];
+                prd[i+1]=prd_temp;
 
-              tlp_temp=tlp[j];
-                tlp[j]=tlp[j+1];
-                tlp[j+1]=tlp_temp;
+              tlp_temp=tlp[i];
+                tlp[i]=tlp[i+1];
+                tlp[i+1]=tlp_temp;
             }
          */
     
              //Ascending
-              if (nim[j] > nim[j+1]) 
+              if (nim[i] > nim[i+1]) 
             {
-               nim_temp=nim[j];
-                nim[j]=nim[j+1];
-                nim[j+1]=nim_temp;
+               nim_temp=nim[i];
+                nim[i]=nim[i+1];
+                nim[i+1]=nim_temp;
               
-              nama_temp=nama[j];
-                nama[j]=nama[j+1];
-                nama[j+1]=nama_temp;
+              nama_temp=nama[i];
+                nama[i]=nama[i+1];
+                nama[i+1]=nama_temp;
 
 
-               prd_temp=prd[j];
-                prd[j]=prd[j+1];
-                prd[j+1]=prd_temp;
+               prd_temp=prd[i];
+                prd[i]=prd[i+1];
+                prd[i+1]=prd_temp;
 
-              tlp_temp=tlp[j];
-                tlp[j]=tlp[j+1];
-                tlp[j+1]=tlp_temp;
+              tlp_temp=tlp[i];
+                tlp[i]=tlp[i+1];
+                tlp[i+1]=tlp_temp;
             }
               
           }
