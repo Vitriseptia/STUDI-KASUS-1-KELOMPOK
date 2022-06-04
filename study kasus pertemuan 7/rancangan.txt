@@ -19,14 +19,15 @@ proses :
 output :
 
 ===========================================================================
-                HASIL PENCARIAN DATA MAHASISWA
+                 DATA MAHASISWA
 ===========================================================================
 data yang diurutkan berdasarkan nim
 data1
 data2
 data3
-
-data pencarian
+------------------------------------
+data pencarian : nim
+--------------------------------
 NAMA    : 
 NIM     :
 PRODI   :
