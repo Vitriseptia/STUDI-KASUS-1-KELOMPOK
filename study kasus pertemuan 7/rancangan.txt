@@ -1,0 +1,33 @@
+input :
+  Masukkan jumlah Mahasiswa :
+  pake perulangan
+    {
+      Masukkan Nama   :
+      Masukkan Nim    :
+      Masukkan Prodi  :
+      Masukkan No tlp :
+    }
+
+proses :
+  mengurutkan Nomot NIM
+
+  pencarian Index data mahasiswa
+  inputkan data mahasiswa yang dicari(NIM)
+
+
+
+output :
+
+===========================================================================
+                HASIL PENCARIAN DATA MAHASISWA
+===========================================================================
+data yang diurutkan berdasarkan nim
+data1
+data2
+data3
+
+data pencarian
+NAMA    : 
+NIM     :
+PRODI   :
+NO TLP  :
