@@ -63,3 +63,39 @@ void karyawan::proses(){
 		}
 	}
 }
+void karyawan::output(){
+cout<<endl<<endl; cout<<"================================================================\n";
+cout<<"|  Jenis Karyawan |   Nama     |   Alamat   |  Jenis Kelamin   |\n";   cout<<"================================================================\n";
+  for(int i=0; i<data; i++){
+    for(int j=0; j<4; j++){
+     cout<<"|   "<<karyawan1[i][j]<<" \t";
+    }
+    cout<<endl;
+  }  
+cout<<"================================================================\n"; 
+
+  ulang : 
+    cout<<"\nmasukkan jenis yang ingin anda cari = "; cin>>cari;
+    cout<<endl;
+    ketemu=0;
+    cout<<"=============================================="<<endl;
+    cout<<"jenis karyawan yang di cari :"<<cari<<endl;
+    cout<<"=============================================="<<endl;
+    cout<<"| Jenis  | Nama  | alamat | jenis kelamin |"<<endl;
+    cout<<"----------------------------------------------"<<endl;
+    for(int i=0; i<data; i++){
+        if(cari == karyawan1[i][0]){
+        ketemu=1;
+        
+          for(int j=0;j<4;j++){
+            cout<<"| "<<karyawan1[i][j]<<"    ";
+          }
+            cout<<endl;
+        }
+        if (ketemu=0){
+          cout<<"Mohon masukan data dengan benar"<<endl;
+          goto ulang;
+        }
+      
+    }
+}
