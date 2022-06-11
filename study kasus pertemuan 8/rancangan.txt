@@ -1,0 +1,16 @@
+//input
+masukan berapa karyawan yang akan didata: 
+  for:
+  jenis karyawan :
+  nama           :
+  alamat         :
+  Jenis kelamin  :
+
+//proses
+  proses untuk mengurutkan data berdasarkan jenis karyawan
+  proses untuk searching data berdasarkan jenis karyawan
+
+//output
+   hasil dari urut data
+  hasil dari searcing data 
+
