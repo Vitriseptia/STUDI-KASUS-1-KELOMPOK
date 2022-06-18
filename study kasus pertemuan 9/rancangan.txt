@@ -1,0 +1,13 @@
+//input
+berapa data buku?
+  for i=> (1d)
+    masukan jenis buku :
+    masukan judul buku :
+    masukan pengarang  :
+//proses
+  *proses penggabungan 1d ke 2d
+  *proses  urut data
+//output
+  hasil dari penggabungan data 1D&2D
+  cari judul buku
+  hasil cari buku
