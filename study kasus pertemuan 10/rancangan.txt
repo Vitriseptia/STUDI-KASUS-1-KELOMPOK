@@ -1,0 +1,33 @@
+//input
+  Masukkan berapa peserta lomba
+  For->Masukkan Nim dan Nama
+
+
+//proses
+
+  selection->mengurutkan berdasarkan nim
+
+  for-> menyimpan nim dan nama ke alamat
+  masukan ke pointer nama dan nim
+
+
+
+//output
+secara urut
+  data 1
+      NIM  : 
+      Nama :
+  data 2
+      NIM  : 
+      Nama :
+  data 3
+      NIM  : 
+      Nama :
+  data 4
+      NIM  : 
+      Nama :
+  data 5
+      NIM  : 
+      Nama :
+
+  searcing data-> nim
